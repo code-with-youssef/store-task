@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('order_id');
             $table->string('client_name');
-            $table->string('email')->nullable();
+            $table->string('email');
             $table->string('phone');
             $table->text('address');
             $table->decimal('total_price', 10, 2);
